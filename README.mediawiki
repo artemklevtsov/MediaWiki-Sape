@@ -1,0 +1,20 @@
+= MediaWiki-Sape =
+
+This extention adds [https://www.sape.ru Sape] code to the sidebar.
+
+== Installation ==
+
+=== Step 1: Downloading ===
+
+You can download the snapshot [https://github.com/unikum/MediaWiki-Sape/archive/master.zip zip file] and extract the files to your <code>extensions</code> directory.
+
+=== Step 2: Installation ===
+
+Add this lines to the end of your [http://www.mediawiki.org/wiki/Manual:LocalSettings.php LocalSettings.php]:
+
+<pre>
+require_once "$IP/extensions/SyntaxHighlight/SyntaxHighlight.php";
+$wgSapeUserID = 'SAPEUSERID';
+</pre>
+
+Installation can now be verified through <code>Special:Version</code> page on your wiki
