@@ -13,7 +13,7 @@ You can download the snapshot [https://github.com/unikum/MediaWiki-Sape/archive/
 Add this lines to the end of your [http://www.mediawiki.org/wiki/Manual:LocalSettings.php LocalSettings.php]:
 
 <pre>
-require_once "$IP/extensions/SyntaxHighlight/SyntaxHighlight.php";
+require_once "$IP/extensions/Sape/Sape.php";
 $wgSapeUserID = 'SAPEUSERID';
 </pre>
 
