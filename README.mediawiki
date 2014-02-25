@@ -17,4 +17,8 @@ require_once "$IP/extensions/Sape/Sape.php";
 $wgSapeUserID = 'SAPEUSERID';
 </pre>
 
-Installation can now be verified through <code>Special:Version</code> page on your wiki
+Installation can now be verified through <code>Special:Version</code> page on your wiki.
+
+== Configuration ==
+
+In Sape control panel add sape links separator: <code></li><li></code>.
